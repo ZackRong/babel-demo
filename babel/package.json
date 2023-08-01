@@ -1,0 +1,32 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "babel demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo1": "npx babel src/demo1/index.js -o src/demo1/dist.js",
+    "demo2": "npx babel src/demo2/index.js -o src/demo2/dist.js",
+    "demo3": "npx babel src/demo3/index.js -o src/demo3/dist.js",
+    "demo4": "npx babel src/demo4/index.js -o src/demo4/dist.js",
+    "demo5": "npx babel src/demo5/index.js -o src/demo5/dist.js",
+    "demo6": "npx babel src/demo6/index.js -o src/demo6/dist.js",
+    "demo7": "npx babel src/demo7/index.js -o src/demo7/dist.js"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "browserslist": [
+    "Chrome 27"
+  ],
+  "author": "rongzhx",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/runtime": "^7.21.0"
+  }
+}
